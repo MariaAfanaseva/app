@@ -1,0 +1,11 @@
+names:
+- table
+- sofa
+- computer
+- lamp
+price:
+  computer: 500€ - 800€
+  lamp: 200€
+  sofa: 300€ - 500€
+  table: 100€ - 200€
+quantity: 3

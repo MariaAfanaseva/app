@@ -1,0 +1,39 @@
+{
+    "orders": [
+        {
+            "item": 3,
+            "quantity": 4,
+            "price": 5,
+            "buyer": 6,
+            "date": 5
+        },
+        {
+            "item": "ae",
+            "quantity": 7,
+            "price": 566,
+            "buyer": "sEF",
+            "date": "10.10.23"
+        },
+        {
+            "item": "ae",
+            "quantity": 7,
+            "price": 566,
+            "buyer": "sEF",
+            "date": "10.10.23"
+        },
+        {
+            "item": "\u0414\u0438\u0432\u0430\u043d",
+            "quantity": 1,
+            "price": 4566,
+            "buyer": "\u0418\u0432\u0430\u043d",
+            "date": "01.01.01"
+        },
+        {
+            "item": "Table",
+            "quantity": 1,
+            "price": 4566,
+            "buyer": "Anna",
+            "date": "11.11.11"
+        }
+    ]
+}
