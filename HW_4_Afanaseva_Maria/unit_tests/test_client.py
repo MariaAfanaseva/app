@@ -8,29 +8,25 @@ from common.variables import *
 
 class TestClient(unittest.TestCase):
     def setUp(self):
-        self.arg = [sys.argv[0]]
+        sys.argv = sys.argv[:1]
 
     def test_get_ip_port(self):
-        sys.argv = self.arg
         # print('1', sys.argv)
         self.assertEqual(get_ip_port(), ('127.0.0.1', 7777))
 
     def test_get_args(self):
-        sys.argv = self.arg
         sys.argv.append('44.23.4.4')
         sys.argv.append('5667')
         # print('2', sys.argv)
         self.assertEqual(get_ip_port(), ('44.23.4.4', 5667))
 
     def test_get_wrong_port(self):
-        sys.argv = self.arg
         sys.argv.append('44.23.4.4')
         sys.argv.append('567')
         # print('3', sys.argv)
         self.assertRaises(SystemExit, get_ip_port)
 
     def test_get_wrong_ip(self):
-        sys.argv = self.arg
         sys.argv.append('4444.23.4.4')
         sys.argv.append('5678')
         # print('4', sys.argv)
