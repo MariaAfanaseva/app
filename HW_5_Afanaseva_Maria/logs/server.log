@@ -1,0 +1,87 @@
+INFO  2019-09-21 12:34:30,919   server.py  Полученны данные ip и port, которые слушает сервер- 127.0.0.1, 6666
+CRITICAL 2019-09-21 12:35:50,803   server.py  Неверные значения port (-p) или ip (-a)
+INFO  2019-09-21 12:36:11,184   server.py  Полученны данные ip и port, которые слушает сервер- 127.0.0.1, 6612
+INFO  2019-09-21 12:37:03,258   server.py  Установлено соединение с клиетом - (<socket.socket fd=568, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 6612), raddr=('127.0.0.1', 53971)>, ('127.0.0.1', 53971))
+DEBUG 2019-09-21 12:37:03,258   server.py  Получено сообщение от клиента
+INFO  2019-09-21 12:37:03,258   server.py  Разбор сообщения от клиента - {'action': 'presence', 'time': 1569062223.2585025, 'user': {'account_name': 'Guest'}}
+INFO  2019-09-21 12:37:03,269   server.py  Отправлен ответ клиенту - {'response': 200} 
+
+INFO  2019-09-21 12:58:50,154   server.py  Полученны данные ip и port, которые слушает сервер- , 7777
+INFO  2019-09-21 12:58:56,071   server.py  Установлено соединение с клиетом - (<socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54019)>, ('127.0.0.1', 54019))
+DEBUG 2019-09-21 12:58:56,071   server.py  Получено сообщение от клиента
+INFO  2019-09-21 12:58:56,076   server.py  Разбор сообщения от клиента - {'action': 'presence', 'time': 1569063536.0718732, 'user': {'account_name': 'Guest'}}
+INFO  2019-09-21 12:58:56,076   server.py  Отправлен ответ клиенту - {'response': 200} 
+
+INFO  2019-09-21 13:06:55,015   server.py  Полученны данные ip и port, которые слушает сервер- , 7777
+INFO  2019-09-21 13:06:58,215   server.py  Установлено соединение с клиетом - (<socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54024)>, ('127.0.0.1', 54024))
+DEBUG 2019-09-21 13:06:58,215   server.py  Получено сообщение от клиента
+INFO  2019-09-21 13:06:58,215   server.py  Разбор сообщения от клиента - {'action': 'presence', 'time': 1569064018.2151759, 'user': {'account_name': 'Guest'}}
+INFO  2019-09-21 13:06:58,215   server.py  Отправлен ответ клиенту - {'time': 200} 
+
+INFO  2019-09-21 13:07:41,465   server.py  Полученны данные ip и port, которые слушает сервер- , 7777
+INFO  2019-09-21 13:07:44,673   server.py  Установлено соединение с клиетом - (<socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54025)>, ('127.0.0.1', 54025))
+DEBUG 2019-09-21 13:07:44,673   server.py  Получено сообщение от клиента
+INFO  2019-09-21 13:07:44,673   server.py  Разбор сообщения от клиента - {'action': 'presence', 'time': 1569064064.673487, 'user': {'account_name': 'Guest'}}
+INFO  2019-09-21 13:07:44,677   server.py  Отправлен ответ клиенту - {'response': 200} 
+
+INFO  2019-09-21 13:09:17,357   server.py  Полученны данные ip и port, которые слушает сервер- , 7777
+INFO  2019-09-21 13:09:24,014   server.py  Установлено соединение с клиетом - (<socket.socket fd=576, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54030)>, ('127.0.0.1', 54030))
+DEBUG 2019-09-21 13:09:24,014   server.py  Получено сообщение от клиента
+INFO  2019-09-21 13:09:24,014   server.py  Разбор сообщения от клиента - {'action': 'presence', 'time': 1569064164.0149326, 'user': {'account_name': 'Guest'}}
+INFO  2019-09-21 13:09:24,014   server.py  Отправлен ответ клиенту - {'time': 200} 
+
+INFO  2019-09-21 13:10:46,748   server.py  Установлено соединение с клиетом - (<socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54031)>, ('127.0.0.1', 54031))
+DEBUG 2019-09-21 13:10:46,748   server.py  Получено сообщение от клиента
+INFO  2019-09-21 13:10:46,748   server.py  Разбор сообщения от клиента - {'action': 'presence', 'time': 1569064246.7488325, 'user': {'account_name': 'Guest'}}
+INFO  2019-09-21 13:10:46,748   server.py  Отправлен ответ клиенту - {'time': 200} 
+
+INFO  2019-09-21 13:13:35,552   server.py  Установлено соединение с клиетом - (<socket.socket fd=524, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54037)>, ('127.0.0.1', 54037))
+DEBUG 2019-09-21 13:13:35,553   server.py  Получено сообщение от клиента
+INFO  2019-09-21 13:13:35,553   server.py  Разбор сообщения от клиента - {'action': 'presence', 'time': 1569064415.5520194, 'user': {'account_name': 'Guest'}}
+INFO  2019-09-21 13:13:35,553   server.py  Отправлен ответ клиенту - {'time': 200} 
+
+INFO  2019-09-21 13:15:43,324   server.py  Установлено соединение с клиетом - (<socket.socket fd=524, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54040)>, ('127.0.0.1', 54040))
+DEBUG 2019-09-21 13:15:43,324   server.py  Получено сообщение от клиента
+INFO  2019-09-21 13:15:43,324   server.py  Разбор сообщения от клиента - {'action': 'presence', 'time': 1569064543.3244743, 'user': {'account_name': 'Guest'}}
+INFO  2019-09-21 13:15:43,324   server.py  Отправлен ответ клиенту - {'time': 200} 
+
+INFO  2019-09-21 13:16:27,250   server.py  Полученны данные ip и port, которые слушает сервер- , 7777
+INFO  2019-09-21 13:16:34,575   server.py  Установлено соединение с клиетом - (<socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54041)>, ('127.0.0.1', 54041))
+DEBUG 2019-09-21 13:16:34,575   server.py  Получено сообщение от клиента
+INFO  2019-09-21 13:16:34,575   server.py  Разбор сообщения от клиента - {'action': 'presence', 'time': 1569064594.5751536, 'user': {'account_name': 'Guest'}}
+INFO  2019-09-21 13:16:34,575   server.py  Отправлен ответ клиенту - {'response': 200} 
+
+INFO  2019-09-21 13:27:46,090   server.py  Полученны данные ip и port, которые слушает сервер- , 7777
+INFO  2019-09-21 13:27:49,966   server.py  Установлено соединение с клиетом - (<socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54052)>, ('127.0.0.1', 54052))
+DEBUG 2019-09-21 13:27:49,966   server.py  Получено сообщение от клиента
+INFO  2019-09-21 13:27:49,967   server.py  Разбор сообщения от клиента - {'action': 'presence', 'time': 1569065269.966864, 'user': {'account_name': 'Guest'}}
+INFO  2019-09-21 13:27:49,967   server.py  Отправлен ответ клиенту - {'response': 700} 
+
+INFO  2019-09-21 13:28:19,594   server.py  Установлено соединение с клиетом - (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54054)>, ('127.0.0.1', 54054))
+DEBUG 2019-09-21 13:28:19,594   server.py  Получено сообщение от клиента
+INFO  2019-09-21 13:28:19,596   server.py  Разбор сообщения от клиента - {'action': 'presence', 'time': 1569065299.5943267, 'user': {'account_name': 'Guest'}}
+INFO  2019-09-21 13:28:19,596   server.py  Отправлен ответ клиенту - {'response': 700} 
+
+INFO  2019-09-21 13:29:02,446   server.py  Установлено соединение с клиетом - (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54055)>, ('127.0.0.1', 54055))
+DEBUG 2019-09-21 13:29:02,446   server.py  Получено сообщение от клиента
+INFO  2019-09-21 13:29:02,447   server.py  Разбор сообщения от клиента - {'action': 'presence', 'time': 1569065342.4466243, 'user': {'account_name': 'Guest'}}
+INFO  2019-09-21 13:29:02,447   server.py  Отправлен ответ клиенту - {'response': 700} 
+
+INFO  2019-09-21 13:29:57,114   server.py  Установлено соединение с клиетом - (<socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54056)>, ('127.0.0.1', 54056))
+DEBUG 2019-09-21 13:29:57,114   server.py  Получено сообщение от клиента
+INFO  2019-09-21 13:29:57,114   server.py  Разбор сообщения от клиента - {'action': 'presence', 'time': 1569065397.1140897, 'user': {'account_name': 'Guest'}}
+INFO  2019-09-21 13:29:57,114   server.py  Отправлен ответ клиенту - {'response': 700} 
+
+INFO  2019-09-21 13:30:26,479   server.py  Полученны данные ip и port, которые слушает сервер- , 7777
+INFO  2019-09-21 13:30:30,673   server.py  Установлено соединение с клиетом - (<socket.socket fd=568, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54057)>, ('127.0.0.1', 54057))
+DEBUG 2019-09-21 13:30:30,673   server.py  Получено сообщение от клиента
+INFO  2019-09-21 13:30:30,673   server.py  Разбор сообщения от клиента - {'action': 'presence', 'time': 1569065430.6734219, 'user': {'account_name': 'Guest'}}
+INFO  2019-09-21 13:30:30,673   server.py  Отправлен ответ клиенту - {'response': 200} 
+
+INFO  2019-09-21 13:31:59,169   server.py  Полученны данные ip и port, которые слушает сервер- , 7777
+INFO  2019-09-21 13:31:59,170   server.py  Полученны данные ip и port, которые слушает сервер- 78.12.12.45, 8542
+CRITICAL 2019-09-21 13:31:59,173   server.py  Неверные значения port (-p) или ip (-a)
+CRITICAL 2019-09-21 13:31:59,174   server.py  Неверные значения port (-p) или ip (-a)
+INFO  2019-09-21 13:31:59,176   server.py  Разбор сообщения от клиента - {'action': 'presence', 'time': 1.1, 'user': {'account_name': 'Guest'}}
+INFO  2019-09-21 13:31:59,178   server.py  Разбор сообщения от клиента - {'action': 'authenticate', 'time': 1.1, 'user': {'account_name': 'Maria'}}
+INFO  2019-09-21 13:31:59,179   server.py  Разбор сообщения от клиента - {'action': 'presence', 'time': 1.1}
